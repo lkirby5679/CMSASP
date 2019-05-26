@@ -2,6 +2,7 @@
 '::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 '::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 '<> Copyright (C) 2005-2006 Dogg Software All Rights Reserved
+'<> Copyright (C) 2006-2019 Transworld Interactive Software All Rights Reserved
 '<>
 '<> By using this program, you are agreeing to the terms of the
 '<> SkyPortal End-User License Agreement.
