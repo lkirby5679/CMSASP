@@ -1,0 +1,476 @@
+
+ 
+ /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+ 
+.leftPgCol {
+	border-right: 0px dashed #ffffff;
+	background-color: #000000;
+	width: 180px;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 0px;
+	margin: 0px;
+	vertical-align: top;
+	display: table-cell;
+}
+
+.mainPgCol {
+	border: 0px;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 0px;
+	background-color: #000000;
+	margin: 0px;
+	vertical-align: top;
+	display: table-cell;
+}
+
+.rightPgCol {
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 0px;
+	border-left: 0px dashed #ffffff;
+	background-color: #000000;
+	margin: 0px;
+	vertical-align: top;
+	display: table-cell;
+}
+
+.breadcrumb{
+	vertical-align: middle;
+	margin-top:4px; 
+	margin-bottom:6px; 
+	margin-left:4px; 
+	margin-right:4px; 
+	width:99%;
+	border-top: 2px inset #166AE6;
+	border-bottom: 2px outset #166AE6;
+}
+
+/* font colors*/
+.fBold {
+	font-weight: bold;
+	font-size: 12px;
+	color: #ffffff;
+}
+.fNorm {
+	font-size: 12px;
+	color: #ffffff;
+}
+.fAlert {
+	color: #FF0000;
+}
+
+/* Table classes */
+fieldset {
+	color: #FFFFFF;
+	border: 1pt solid #FFFFFF;
+}
+legend {
+	color: #FFFFFF;
+	font-size: 14px;
+}
+table {
+	font-size: 12px;
+	color: #ffffff;
+	text-align: left;
+}
+table.grid {
+	font-size: 12px;
+	color: #ffffff;
+	width: 100%;
+	text-align: left;
+	border-top: 1pt solid #ffffff;
+	border-right: 1pt solid #ffffff;
+	border-bottom: 0pt none #ffffff;
+	border-left: 0pt none #ffffff;
+}
+table.grid td {
+	font-size: 12px;
+	color: #ffffff;
+	border-top: 0pt solid #ffffff;
+	border-right: 0pt solid #ffffff;
+	border-bottom: 1pt solid #ffffff;
+	border-left: 1pt solid #ffffff;
+}
+.tTitle { /* strHeadCellColor */
+	background-color: #CCC3B0;
+	background-image: url('HBack.jpg');
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 4px;
+}
+.fTitle {
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.tSubTitle {  /* strCategoryCellColor -  */
+	background-image: url('HBack.jpg');
+	background-color: #003366;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 4px;
+}
+.fSubTitle {
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.tAltSubTitle {  /* strCategoryCellColor -  */
+	background-image: url('Thang.jpg');
+	background-color: #000444;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 4px;
+}
+.fAltSubTitle {
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.fSmall {
+	font-size: 10px;
+	color: #ffffff;
+}
+/* plastique - blue */
+.tCellHover{ /* Cell Hover color */
+	background-color: #043989;
+}
+.tCellAlt0{ /* ForumFirstCellColor - strPopupTableColor */
+	background-color: #043989;
+}
+.tCellAlt1{ /* ForumCellColor */
+	background-color: #003366;
+}
+.tCellAlt2{ /* AltForumCellColor */
+	background-color: #000444;
+}
+.tContent { 
+	background-color: #000444;
+	color:#ffffff;
+}
+.tBorder {
+	margin: 0px;
+	padding: 2px;
+	width: 100%;
+	color: #ffffff;
+	border: 1pt solid #ffffff;
+	font-size: 12px;
+}
+.tPlain {
+	margin: 0px;
+	padding: 2px;
+	color: #ffffff;
+	border: 0px;
+	text-align: left;
+	font-size: 12px;
+	vertical-align: top;
+}
+.clsSpacer {
+	clear: both;
+	height:1px;
+	width:10%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.spThemeBlock1_content A {color: #ffffff; text-decoration: none; font-size: 12px;}
+.spThemeBlock1_content A:link {color: #ffffff; text-decoration: none; font-size: 12px;}
+.spThemeBlock1_content A:visited {color: #ffffff; text-decoration: none; font-size: 12px; }
+.spThemeBlock1_content A:hover	{color: #ffffff; text-decoration: underline; font-size: 12px;}
+.spThemeBlock1_content A:active {color: #ffffff; text-decoration: none; font-size: 12px;}
+
+
+/*	Start main ThemeBlock  */
+.spThemeBlock1 {		/* This is the themeblock container. Use this for a line border around the themebox */
+	margin: 0px 2px 0px 2px;
+/*	height: auto; */
+	width: auto;
+/*	border: 1px solid #003399; */
+}
+
+.spThemeBlock1_sh_tr {		/* Top right image if themebox has no title */
+	height: 18px;
+	background-color: #000222;
+	background-image:  url(1/tr.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin: 0px;
+}
+.spThemeBlock1_sh_tl{		/* Top left image if themebox has no title */
+	height: 18px;
+	background-image:  url(1/tl.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+}
+
+.spThemeBlock1_sh_tc {		/* Top center image if themebox has no title, this one tiles horizontal */
+	height: 18px;
+	background-image:  url(1/tc.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+.spThemeBlock1_tr {		/* Top right image */
+	background-color: #000222;
+	background-image:  url(1/tr.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin: 0px;
+}
+.spThemeBlock1_tl{		/* Top left image */
+	height: 35px;
+	background-image:  url(1/tl.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+}
+
+.spThemeBlock1_tc {
+	height: 35px;
+/*	width: 100%px;*/
+	background-image:  url(1/tc.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-top: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+.spThemeBlock1_tc h4 {
+	font-weight : bold;
+	color : #C9C9C9;
+	border-bottom : 0px solid #A8B2BB;
+	margin: 0px;
+	padding-bottom : 0px;
+	padding-top: 16px;	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.spThemeBlock1_ml {		/* Middle left side. Tiles vertical */
+	margin: 0px;
+	padding: 0px;
+	background-image: url(1/ml.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.spThemeBlock1_mr {		/* Middle right side. Tiles vertical */
+	margin: 0px;
+	padding: 0px;
+	background-image: url(1/mr.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.spThemeBlock1_content {
+	height: auto;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 5px;
+	margin-right: 9px;
+	margin-left: 9px;
+	text-align: center;
+	background-color: #000444;
+}
+
+.spThemeBlock1_br {		/* Bottom right image */
+	margin: 0px;
+	background-image: url(1/br.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.spThemeBlock1_bl {		/* Bottom left image */
+	margin: 0px;
+	background-image: url(1/bl.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.spThemeBlock1_bc {		/* Bottom center image. This one tiles horizontal */
+	height: 18px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 6px;
+	margin-left: 20px;
+	background-image: url(1/bc.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.spThemeblock1MinMax { /* this is the click area and positioning for the min/max icon */
+	background-color: #000222;
+	width:13px;  /* this is the click area, usually the size of the icon */
+	height:13px;  /* this is the click area, usually the size of the icon */
+	margin-top:18px;  /* this is the positioning from the top of the themebox */
+	margin-right:0px; 
+	padding:0px; 
+}
+
+/* Hide for IE Mac \*/
+* html .spThemeBlock1 {height: 1%;}
+* html .spThemeBlock1_content {height: 1%;}
+/* End Hide */
+
+/*  End Main Color ThemeBlock  */
+
+/*	Start 2 ThemeBlock  */
+.spThemeBlock2 {		/* This is the themeblock container. Use this for a line border around the themebox */
+	margin: 0px 2px 0px 2px;
+/*	height: auto;
+	width: auto; */
+/*	border: 1px solid #003399; */
+}
+
+.spThemeBlock2_sh_tr {		/* Top right image if themebox has no title */
+	height: 18px;
+	background-color: #000222;
+	background-image:  url(2/tr.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin: 0px;
+}
+.spThemeBlock2_sh_tl{		/* Top left image if themebox has no title */
+	height: 18px;
+	background-image:  url(2/tl.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+}
+
+.spThemeBlock2_sh_tc {		/* Top center image if themebox has no title, this one tiles horizontal */
+	height: 18px;
+	background-image:  url(2/tc.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	margin-top: 0px;
+
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+.spThemeBlock2_tr {		/* Top right image */
+	background-color: #000222;
+	background-image:  url(2/tr.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin: 0px;
+}
+.spThemeBlock2_tl{		/* Top left image */
+	height: 35px;
+	background-image:  url(2/tl.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+}
+
+.spThemeBlock2_tc {
+	height: 35px;
+/*	width: 100%px;*/
+	background-image:  url(2/tc.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-top: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+.spThemeBlock2_tc h4 {
+	font-weight : bold;
+	color : #C9C9C9;
+	border-bottom : 0px solid #A8B2BB;
+	margin: 0px;
+	padding-bottom : 0px;
+	padding-top: 16px;	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.spThemeBlock2_ml {		/* Middle left side. Tiles vertical */
+	margin: 0px;
+	padding: 0px;
+	background-image: url(2/ml.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.spThemeBlock2_mr {		/* Middle right side. Tiles vertical */
+	margin: 0px;
+	padding: 0px;
+	background-image: url(2/mr.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.spThemeBlock2_content {
+	height: auto;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 5px;
+	margin-right: 9px;
+	margin-left: 9px;
+	text-align: center;
+	background-color: #000444;
+}
+
+.spThemeBlock2_br {		/* Bottom right image */
+	margin: 0px;
+	background-image: url(2/br.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.spThemeBlock2_bl {		/* Bottom left image */
+	margin: 0px;
+	background-image: url(2/bl.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.spThemeBlock2_bc {		/* Bottom center image. This one tiles horizontal */
+	height: 18px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 6px;
+	margin-left: 20px;
+	background-image: url(2/bc.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.spThemeblock2MinMax { /* this is the click area and positioning for the min/max icon */
+	background-color: #000222;
+	width:13px;  /* this is the click area, usually the size of the icon */
+	height:13px;  /* this is the click area, usually the size of the icon */
+	margin-top:18px;  /* this is the positioning from the top of the themebox */
+	margin-right:0px; 
+	padding:0px; 
+}
+
+/* Hide for IE Mac \*/
+* html .spThemeBlock2 {height: 1%;}
+* html .spThemeBlock2_content {height: 1%;}
+/* End Hide */
+
+/*  End 2 Color ThemeBlock  */

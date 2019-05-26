@@ -1,0 +1,95 @@
+
+/* :::: | SKYPORTAL.NET | :::: */
+.spPageContainer {
+  vertical-align: top;
+  margin: 0px;  
+  padding: 0px; 
+  border: 3px;  
+  width: 100%;
+}
+
+.spPageLeft {
+  vertical-align: top;
+  margin: 0px;  
+  padding: 0px; 
+  border: 0px;  
+  width: 5%;
+  background-color: #FF0000; 
+  display: none;
+}
+
+.spPageRight {
+  vertical-align: top;
+  margin: 0px;  
+  padding: 0px; 
+  border: 0px;  
+  width: 5%;
+  background-color: #0000FF; 
+  display: none;
+}
+
+.spTheme { 
+  width: 100%; 
+  height: 100%;
+  margin: 0px;
+  padding-top: 6px; 
+  text-align: center;
+} 
+
+.spThemePage { 
+  width: 100%; 
+  padding-bottom: 0px;
+  text-align: center;
+  border: 0px solid #000000;
+  background-color: #EFF8FF; 
+} 
+
+.leftPgCol {
+  display: table-cell; 
+  width: 190px;
+  margin: 0px;  
+  padding-top: 0px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+  padding-left: 2px;
+  vertical-align: top;
+  border: 0px;  
+  background-color: #50A8DB;  
+}
+.mainPgCol {
+  display: table-cell;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  margin: 0px;
+  vertical-align: top; 
+  border: 0px;  
+  background-image: url(MainColumnTop.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.rightPgCol {
+  display: table-cell;
+  width: 190px;
+  padding-top: 6px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 0px;
+  margin: 0px;
+  vertical-align: top; 
+  border: 0px; 
+  border-left: 0px dashed #ffffff;
+  background-color: transparent;  
+}
+.breadcrumb{ 
+  width: 98%;
+  margin-top: 10px; 
+  margin-bottom: 6px; 
+  margin-left: 4px; 
+  margin-right: 4px;
+  vertical-align: middle;   
+  border-top: 1px dashed #ffffff;
+  border-bottom: 1px dashed #ffffff;
+  font-weight: bold; color: #084267;	      
+} 

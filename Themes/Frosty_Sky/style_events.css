@@ -1,0 +1,173 @@
+
+/* -- START EVENT/CALENDAR STYLES -- */
+TD.NON 
+{
+	font-family :Verdana, Arial, Helvetica, sans-serif;
+	font-size :11px; 
+	color :#C0C0C0; 
+	font-weight :normal
+}
+TD.TOP 
+{
+	font-family :Verdana, Arial, Helvetica, sans-serif;
+	font-size :11px; 
+	color :#0000FF; 
+	font-weight :bold
+}
+TD.Some 
+{
+	font-family :Verdana, Arial, Helvetica, sans-serif;
+	font-size :11px; 
+	color :#D9DEE2; 
+	font-weight :normal
+	}
+TD.Today 
+{
+	font-family :Verdana, Arial, Helvetica, sans-serif;
+	font-size :11px; 
+	background-color :lightsteelblue; 
+	font-weight :normal
+}
+TD.Day 
+{
+	font-family :Verdana, Arial, Helvetica, sans-serif;
+	font-size :11px; 
+	color :#D9DEE2; 
+	background-color :#F1F1F4; 
+	font-weight :normal
+}
+TD.Selected 
+{
+	font-family :Verdana, Arial, Helvetica, sans-serif;
+	font-size :11px; 
+	background-color :plum; 
+	font-weight :normal
+}
+TD.HL 
+{
+	font-family :Verdana, Arial, Helvetica, sans-serif;
+	font-size :11px; 
+	color :#D9DEE2; 
+	font-weight :normal
+}
+TD.NON2 
+{
+	cursor: crosshair;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size :11px; 
+	background-color :lightgrey; 
+	font-weight :normal
+}
+A.NOEVENT:link
+{
+    color: #05719F;
+    CURSOR: hand;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.NOEVENT:visited
+{
+    color: #05719F;
+    CURSOR: hand;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.NOEVENT:hover
+{
+    BACKGROUND-COLOR: lavender;
+    color: #05719F;
+    CURSOR: hand;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.EVENT:link
+{
+    COLOR: navy;
+    CURSOR: hand;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.EVENT:visited
+{
+    COLOR: navy;
+    CURSOR: hand;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.EVENT:hover
+{
+    BACKGROUND-COLOR: CCFFFF;
+    COLOR: navy;
+    CURSOR: help;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.MONTH:link
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.MONTH:visited
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.MONTH:hover
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: underline
+}
+A.NORMAL:link
+{
+    color: #05719F;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.NORMAL:visited
+{
+    color: #05719F;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.NORMAL:hover
+{
+    color: #05719F;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+.createdby
+{
+    FONT-STYLE: italic;
+    TEXT-ALIGN: right
+}
+.bluetext
+{
+    COLOR: #336699
+}
+.month
+{
+    FONT-WEIGHT: bold
+}
+.eventname
+{
+    FONT-WEIGHT: bold
+}
+a.Title:link {color:navy; text-decoration: underline; cursor: hand}
+a.Title:visited {color: steelblue; text-decoration: underline}
+a.Title:hover   {color: FFFFCC; text-decoration: underline; cursor: hand}
+/* -- END EVENT/CALENDAR STYLES -- */
